@@ -1,0 +1,15 @@
+https://www.youtube.com/watch?v=VyEKwp6Q4fY
+
+Current:
+https://youtu.be/VyEKwp6Q4fY?t=4089
+
+
+GitHub Link:
+https://github.com/willjw3/sequelize-typescript-tutorial
+
+
+Sequelize Docs:
+https://sequelize.org/docs/v6/getting-started/
+
+TypeScript Docs:
+https://www.typescriptlang.org/

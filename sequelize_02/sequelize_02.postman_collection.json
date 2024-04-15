@@ -1,0 +1,185 @@
+{
+	"info": {
+		"_postman_id": "11582cae-bb7a-474c-8960-aeb7ee0333aa",
+		"name": "sequelize_02",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create New User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Jane\",\r\n    \"email\": \"jane@email.com\",\r\n    \"role\":\"admin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{localhost}}/users",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}/users",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Find User",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}/users/4731de32-786a-4c7a-88d9-37ed6798176f",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"users",
+						"4731de32-786a-4c7a-88d9-37ed6798176f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete User",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}/users/1e0fbb19-5814-487a-b42f-18d88793d978",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"users",
+						"1e0fbb19-5814-487a-b42f-18d88793d978"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Users",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Jannet\",\r\n    \"email\": \"\",\r\n    \"role\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{localhost}}/users/583b94a0-d580-473c-9f78-9d9660f9fae3",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"users",
+						"583b94a0-d580-473c-9f78-9d9660f9fae3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create New Post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"body\": \"Second Post\",\r\n    \"userUUID\": \"6fb3b19f-8624-4ce7-a13b-6ac270789461\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{localhost}}/post",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Posts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}/post",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "localhost",
+			"value": "127.0.0.1:5000",
+			"type": "default"
+		}
+	]
+}

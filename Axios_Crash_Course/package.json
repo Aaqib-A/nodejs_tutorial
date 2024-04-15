@@ -1,0 +1,15 @@
+{
+  "name": "axios_crash_course",
+  "version": "1.0.0",
+  "description": "> These are the files for the YouTube Axios crash course.",
+  "main": "main.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

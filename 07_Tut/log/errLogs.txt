@@ -1,0 +1,1 @@
+20220420	17:27:08	bea2aa0d-7a68-4cc4-9731-af527bcab350	Error	Not allowed by CORS

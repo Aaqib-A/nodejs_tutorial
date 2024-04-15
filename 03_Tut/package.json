@@ -1,0 +1,19 @@
+{
+  "name": "03_tut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "npx nodemon index"
+  },
+  "author": "Aaqib",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.28.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
